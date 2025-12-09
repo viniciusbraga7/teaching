@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestão de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Suas Tarefas</h2>
+
+        <input id="newTask" type="text" placeholder="Nova tarefa">
+        <button onclick="createTask()">Adicionar</button>
+
+        <div id="taskList" class="task-box">
+            <!-- tarefas aparecem aqui -->
+        </div>
+
+        <button onclick="logout()" style="margin-top: 20px; background: #ef4444;">Sair</button>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
